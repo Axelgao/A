@@ -63,7 +63,6 @@ $(document).ready(function () {
             return true;
         } else {
             rePassword.css("border-color", "yellow");
-            alert("Passwords must match");
             return false;
         }
     };
